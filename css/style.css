@@ -4,6 +4,7 @@ html {
 *, *::before, *::after {
     box-sizing: inherit;
 }
+/* Загальні стилі та визначення кореневих змінних */
 body {
     margin: 0;
     font-family: 'Inter', sans-serif;
@@ -22,6 +23,7 @@ body {
     --grey: #E2E2E2;
     --dark_grey: #565858;
 }
+/* Стилі для елементів верхнього колонтитулу: прямокутників, ліній, заголовків */
 .rectangle {
     top: 0;
     left: 0;
@@ -74,7 +76,8 @@ body {
     position: absolute;
     width: 792.2px;
     height: 695px;
-} 
+}
+/* Стилі для секцій із особистою інформацією: фото та цитатою */
 .rectangleQuote {
     top: 1600px;
     right: 0;
@@ -100,6 +103,7 @@ body {
     right: 0px;
     position: absolute;
 }
+/* Стилі для секції контактів із значками та деталями */
 .ln {
     top: 746px;
     left: 0px;
@@ -191,6 +195,7 @@ body {
     top: 20px;
     left: 84px;
 }
+/* Стилі для секції досвіду роботи із таймлайном, посадами та обов'язками */
 .job_block {
     position: relative;
     font-size: 58px;
@@ -301,6 +306,7 @@ body {
     top: 15px;
     left: 0px;
 }
+/* Стилі для секції навичок із прогрес-барами для різних технологій */
 .skills_block {
     position: relative;
     font-size: 58px;
@@ -384,6 +390,7 @@ body {
     left: 0px;
     position: absolute;
 }
+/* Стилі для секції освіти із деталями про академічний фонд та курси */
 .rectangleEduc {
     bottom: 500px;
     right: 0px;
@@ -442,6 +449,7 @@ body {
     font-weight: normal;
     color: var(--dark_grey);
 }
+/* Стилі для секції нижнього колонтитолу */
 .rectangle2 {
     bottom: 0;
     left: 0;
